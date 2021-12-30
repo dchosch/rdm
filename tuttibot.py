@@ -1,24 +1,30 @@
-# My wife regularly sells and purchases stuff on thi online platform. Of course
-# she uses the free service, which means that if you want to appear somewhere
-# at the top of the search results, you need to take down and put up your ad on
-# a weekly basis. We have a guest bed we've been trying to get rid off for a
-# while now and she has been doing this mennial task for some weeks now. So I
-# decided to write a bot for her to automate the task. I don't think a bot is an
-# issue in this particular example as it's used to upload single ads at a time.
-# We are not overloading anyone's server.
+# My wife regularly sells and purchases stuff on this online platform. Of course
+# she uses their free service, which means if you want to appear somewhere at
+# the top of the search results, you need to take down and put up your ad on a
+# weekly basis - newest is shown on top, after paid ads that is. We have a guest
+# bed we've been trying to get rid off for a while now and my wife has been
+# offloading/uploading this ad manually for some weeks now. So I decided to
+# write a bot for her to automate the task. I don't think a bot is an issue in
+# this particular example as it's used to upload single ads at a time. We aren't
+# overloading anyone's server site.
 #
-# A word on the package used here. I had a quick look into Selenium and used it
-# to build the bot quickly. Nothing fancy really but maybe it inspires you!
+# A word on the package used here. I had a quick look into Selenium and though I
+# didn't know it really, I decided to anyways go ahead with it. I don't regret
+# it! Selenium is very straightforward as a tool to interacting with html
+# elements. So in 2h or so I built this bot. It's nothing fancy really but maybe
+# it inspires someone out there!
 #
-# I created a short cockpit area for my wife to type in the needed details for
-# the program to run without her having to bother with the code. One issue I
-# encountered is interacting with the 'upload files' hurdle on this parcitular
-# site. In this iteration I didn't find a quick way to automate this step. This
-# seems to be a common theme out there. I'm sure I'll circle back to it in some
-# time an try to get that splinter out my brain. :)
+# I created a short cockpit as UI for my wife. That way she could type in the
+# needed details for the program to run without her having to bother with code.
+# One issue I encountered is interacting with the 'upload files' hurdle on this
+# parcitular site. In this iteration I didn't find a quick way to automate this
+# step. A quick google search also made me realize this seems to be a common
+# theme out there. I'm sure I'll circle back to it in some time an try to get
+# that splinter out my brain. :)
 #
 # One last thing, I affectionately named this program 'tuttibot' as the site my
-# wife uses is called tutti. I thought it amusing (yes, I guess I a total geek).
+# wife uses is called tutti. I thought it amusing. Guess that makes me a total
+# geek.
 
 
 ###
